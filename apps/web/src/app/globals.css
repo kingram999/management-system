@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f3f6f4;
+  --foreground: #14231c;
+  --card: #ffffff;
+  --muted: #5d7268;
+  --border: #d5e0da;
+  --brand: #0f6b4c;
+  --brand-dark: #0a4d37;
+  --accent: #c4a35a;
+  --danger: #b42318;
+  --warning: #b54708;
+  --success: #1f7a4d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-brand: var(--brand);
+  --color-brand-dark: var(--brand-dark);
+  --color-accent: var(--accent);
+  --color-danger: var(--danger);
+  --color-warning: var(--warning);
+  --color-success: var(--success);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(15, 107, 76, 0.08), transparent 28%),
+    linear-gradient(180deg, #eef5f1 0%, var(--background) 42%, #e8efe9 100%);
+  color: var(--foreground);
+  font-family: var(--font-body), system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+.display-font {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

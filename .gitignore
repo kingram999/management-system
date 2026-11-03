@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+.env
+.env.local
+.env*.local
+*.log
+dist
+.next
+.expo
+apps/mobile/.claude
