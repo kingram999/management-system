@@ -1,6 +1,6 @@
-# RamSai Public School ERP
+# School ERP
 
-School management system for **RamSai Public School**.
+School management system for **Any School**.
 
 ## Stack
 
@@ -15,7 +15,7 @@ School Admin portal with Admission Management.
 ### Admin login (seeded)
 
 - Email: `admin@rsps.local`
-- Password: `Admin@12345`
+- Password: `Admin@1234`
 
 Change this password after first login in Supabase Auth.
 
